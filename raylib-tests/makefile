@@ -26,7 +26,7 @@ Build:
 build_run:Build
 	$(EXEC)
 
-Build_Debug:
+build_debug:
 	$(CC) $(CC_RAYLIB_Debug) -o $(EXEC_DEBUG) $(S_FILES)
 
 clean:
